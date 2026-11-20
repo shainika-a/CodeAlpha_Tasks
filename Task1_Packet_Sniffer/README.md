@@ -1,4 +1,4 @@
-# Task 1: Network Packet Sniffer
+# Network Packet Sniffer
 
 ## Aim
 Capture network packets using Python and Scapy and understand packet layers, source/destination addresses, protocols, ports and payload bytes. Capture only on your own device or a network where you have permission.
