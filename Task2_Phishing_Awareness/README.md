@@ -15,18 +15,6 @@ Download or clone this repository and open `index.html` in a browser. Internet i
 - Response guidance after clicking, entering credentials or running a file.
 - Responsive layout and keyboard-accessible controls.
 
-## Hosting on GitHub
-Upload `index.html` and `README.md` to your repository. Keep index.html at the repository root. The module runs locally; a hosted link is optional.
-
-For an optional GitHub Pages website, use the repository Settings > Pages branch publishing option if available for your account. Select your default branch and root folder, then save.
-
-## Demonstration
-1. Explain phishing and the pressure tactics.
-2. Reveal the five email warning signs.
-3. Explain the misleading URL and why HTTPS alone does not prove trust.
-4. Open a real-world case study.
-5. Answer the quiz and show the feedback and score.
-
 ## Privacy
 No credentials or personal details are collected. Quiz state stays in memory and resets on refresh. Fictional sample domains are reserved `.example` addresses and are not active links. External reference links are clearly labeled.
 
