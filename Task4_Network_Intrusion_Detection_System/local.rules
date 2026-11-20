@@ -1,0 +1,4 @@
+# Lab rules only. These indicate patterns, not proof of intrusion.
+alert icmp any any -> $HOME_NET any (msg:"LAB ICMP echo request observed"; itype:8; priority:3; sid:1000001; rev:1;)
+alert http any any -> $HOME_NET any (msg:"LAB HTTP training marker observed"; flow:established,to_server; http.uri; content:"/ids-demo"; priority:3; sid:1000002; rev:1;)
+alert tcp any any -> $HOME_NET any (msg:"LAB elevated SYN rate - investigate"; flags:S; flow:stateless; detection_filter:track by_src,count 20,seconds 10; priority:2; sid:1000003; rev:1;)

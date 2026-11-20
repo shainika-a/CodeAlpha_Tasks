@@ -1,0 +1,4 @@
+{"timestamp":"2026-11-20T00:00:00+05:30","event_type":"alert","flow_id":1001,"src_ip":"127.0.0.1","dest_ip":"127.0.0.1","proto":"ICMP","alert":{"action":"allowed","signature_id":1000001,"signature":"LAB ICMP echo request observed","severity":3}}
+{"timestamp":"2026-11-20T00:00:01+05:30","event_type":"alert","flow_id":1002,"src_ip":"127.0.0.1","src_port":45000,"dest_ip":"127.0.0.1","dest_port":8000,"proto":"TCP","alert":{"action":"allowed","signature_id":1000002,"signature":"LAB HTTP training marker observed","severity":3}}
+{"timestamp":"2026-11-20T00:00:02+05:30","event_type":"alert","flow_id":1003,"src_ip":"192.0.2.10","src_port":45001,"dest_ip":"192.0.2.20","dest_port":8000,"proto":"TCP","alert":{"action":"allowed","signature_id":1000003,"signature":"LAB elevated SYN rate - investigate","severity":2}}
+{"timestamp":"2026-11-20T00:00:03+05:30","event_type":"flow","flow_id":1003,"src_ip":"192.0.2.10","dest_ip":"192.0.2.20","proto":"TCP"}

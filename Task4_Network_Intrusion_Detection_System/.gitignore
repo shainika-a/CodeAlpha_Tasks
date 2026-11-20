@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+incidents*.jsonl
+lab-logs/
+eve.json
+fast.log
+*.pcap
