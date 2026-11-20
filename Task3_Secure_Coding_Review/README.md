@@ -51,8 +51,5 @@ Bandit can exit nonzero when it finds issues. Review its output; static analysis
 ## Local comparison
 If you need to demonstrate the original behavior, run `vulnerable_app.py` with the virtual-environment Python and use port 5000. Its dummy account is student / DemoPassword123!. Keep it bound to localhost and do not deploy the vulnerable version.
 
-## GitHub
-Upload the source files, requirements, tests, report, README and .gitignore. Do not upload databases or real passwords. This is a code review project, not a GitHub Pages website.
-
 ## Validation status
 The code has been manually reviewed. Runtime tests and Bandit were not executed in the preparation environment because it lacked working Python. Run the supplied commands on your laptop and record actual results before claiming successful tests in your submission.
